@@ -1,0 +1,106 @@
+﻿Build started 4/11/2014 7:38:22 PM.
+     1>Project "E:\Cloud Stores\GitHub\Playground\VS 2013 C++\Parallel Computing\Parallel Computing\Parallel Computing.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\xrefwrap(283): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\functional(228) : see reference to function template instantiation '_Ret std::_Callable_obj<main::<lambda_11e2b40109c9a314af3ee92e28e809f4>,false>::_ApplyX<_Rx,_Ty,_Ty>(_Ty &&,_Ty &&)' being compiled
+                 with
+                 [
+                     _Ret=bool
+         ,            _Rx=bool
+         ,            _Ty=int
+                 ]
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\functional(228) : see reference to function template instantiation '_Ret std::_Callable_obj<main::<lambda_11e2b40109c9a314af3ee92e28e809f4>,false>::_ApplyX<_Rx,_Ty,_Ty>(_Ty &&,_Ty &&)' being compiled
+                 with
+                 [
+                     _Ret=bool
+         ,            _Rx=bool
+         ,            _Ty=int
+                 ]
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\functional(226) : while compiling class template member function 'bool std::_Func_impl<_MyWrapper,_Alloc,_Ret,int,int>::_Do_call(int &&,int &&)'
+                 with
+                 [
+                     _Alloc=std::allocator<std::_Func_class<bool,int,int>>
+         ,            _Ret=bool
+                 ]
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\functional(495) : see reference to class template instantiation 'std::_Func_impl<_MyWrapper,_Alloc,_Ret,int,int>' being compiled
+                 with
+                 [
+                     _Alloc=std::allocator<std::_Func_class<bool,int,int>>
+         ,            _Ret=bool
+                 ]
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\functional(396) : see reference to function template instantiation 'void std::_Func_class<_Ret,int,int>::_Do_alloc<_Myimpl,_Ty,_Alloc>(_Fty &&,_Alloc)' being compiled
+                 with
+                 [
+                     _Ret=bool
+         ,            _Ty=main::<lambda_11e2b40109c9a314af3ee92e28e809f4>
+         ,            _Alloc=std::allocator<std::_Func_class<bool,int,int>>
+         ,            _Fty=main::<lambda_11e2b40109c9a314af3ee92e28e809f4>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\functional(396) : see reference to function template instantiation 'void std::_Func_class<_Ret,int,int>::_Do_alloc<_Myimpl,_Ty,_Alloc>(_Fty &&,_Alloc)' being compiled
+                 with
+                 [
+                     _Ret=bool
+         ,            _Ty=main::<lambda_11e2b40109c9a314af3ee92e28e809f4>
+         ,            _Alloc=std::allocator<std::_Func_class<bool,int,int>>
+         ,            _Fty=main::<lambda_11e2b40109c9a314af3ee92e28e809f4>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\functional(385) : see reference to function template instantiation 'void std::_Func_class<_Ret,int,int>::_Reset_alloc<_Ty,std::allocator<std::_Func_class<_Ret,int,int>>>(_Fty &&,_Alloc)' being compiled
+                 with
+                 [
+                     _Ret=bool
+         ,            _Ty=main::<lambda_11e2b40109c9a314af3ee92e28e809f4>
+         ,            _Fty=main::<lambda_11e2b40109c9a314af3ee92e28e809f4>
+         ,            _Alloc=std::allocator<std::_Func_class<bool,int,int>>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\functional(385) : see reference to function template instantiation 'void std::_Func_class<_Ret,int,int>::_Reset_alloc<_Ty,std::allocator<std::_Func_class<_Ret,int,int>>>(_Fty &&,_Alloc)' being compiled
+                 with
+                 [
+                     _Ret=bool
+         ,            _Ty=main::<lambda_11e2b40109c9a314af3ee92e28e809f4>
+         ,            _Fty=main::<lambda_11e2b40109c9a314af3ee92e28e809f4>
+         ,            _Alloc=std::allocator<std::_Func_class<bool,int,int>>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\functional(671) : see reference to function template instantiation 'void std::_Func_class<_Ret,int,int>::_Reset<_Ty>(_Fty &&)' being compiled
+                 with
+                 [
+                     _Ret=bool
+         ,            _Ty=main::<lambda_11e2b40109c9a314af3ee92e28e809f4>
+         ,            _Fty=main::<lambda_11e2b40109c9a314af3ee92e28e809f4>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\functional(671) : see reference to function template instantiation 'void std::_Func_class<_Ret,int,int>::_Reset<_Ty>(_Fty &&)' being compiled
+                 with
+                 [
+                     _Ret=bool
+         ,            _Ty=main::<lambda_11e2b40109c9a314af3ee92e28e809f4>
+         ,            _Fty=main::<lambda_11e2b40109c9a314af3ee92e28e809f4>
+                 ]
+                 e:\cloud stores\github\playground\vs 2013 c++\parallel computing\parallel computing\main.cpp(30) : see reference to function template instantiation 'std::function<bool (int,int)>::function<main::<lambda_11e2b40109c9a314af3ee92e28e809f4>>(_Fx &&)' being compiled
+                 with
+                 [
+                     _Fx=main::<lambda_11e2b40109c9a314af3ee92e28e809f4>
+                 ]
+                 e:\cloud stores\github\playground\vs 2013 c++\parallel computing\parallel computing\main.cpp(30) : see reference to function template instantiation 'std::function<bool (int,int)>::function<main::<lambda_11e2b40109c9a314af3ee92e28e809f4>>(_Fx &&)' being compiled
+                 with
+                 [
+                     _Fx=main::<lambda_11e2b40109c9a314af3ee92e28e809f4>
+                 ]
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Cloud Stores\GitHub\Playground\VS 2013 C++\Parallel Computing\Debug\Parallel Computing.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\Cloud Stores\GitHub\Playground\VS 2013 C++\Parallel Computing\Debug\Parallel Computing.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Cloud Stores\GitHub\Playground\VS 2013 C++\Parallel Computing\Debug\Parallel Computing.lib" /MACHINE:X86 Debug\main.obj
+         Debug\mpi_engine.obj
+         Debug\philosopher.obj
+         Debug\spoon.obj
+     1>main.obj : error LNK2019: unresolved external symbol _MPI_Isend referenced in function "private: static void __cdecl <lambda_be8e3a89a64446e8d2cde4d98a897074>::<helper_func_cdecl>(int,int)" (?<helper_func_cdecl>@<lambda_be8e3a89a64446e8d2cde4d98a897074>@@CAXHH@Z)
+     1>main.obj : error LNK2019: unresolved external symbol _MPI_Irecv referenced in function "private: static int __cdecl <lambda_11e2b40109c9a314af3ee92e28e809f4>::<helper_func_cdecl>(int,int)" (?<helper_func_cdecl>@<lambda_11e2b40109c9a314af3ee92e28e809f4>@@CAHHH@Z)
+     1>main.obj : error LNK2019: unresolved external symbol _MPI_Test referenced in function "private: static int __cdecl <lambda_11e2b40109c9a314af3ee92e28e809f4>::<helper_func_cdecl>(int,int)" (?<helper_func_cdecl>@<lambda_11e2b40109c9a314af3ee92e28e809f4>@@CAHHH@Z)
+     1>main.obj : error LNK2019: unresolved external symbol _MPI_Comm_size referenced in function _main
+     1>main.obj : error LNK2019: unresolved external symbol _MPI_Comm_rank referenced in function _main
+     1>main.obj : error LNK2019: unresolved external symbol _MPI_Init referenced in function _main
+     1>main.obj : error LNK2019: unresolved external symbol _MPI_Finalize referenced in function _main
+     1>E:\Cloud Stores\GitHub\Playground\VS 2013 C++\Parallel Computing\Debug\Parallel Computing.exe : fatal error LNK1120: 7 unresolved externals
+     1>Done Building Project "E:\Cloud Stores\GitHub\Playground\VS 2013 C++\Parallel Computing\Parallel Computing\Parallel Computing.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.67
