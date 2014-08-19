@@ -1,0 +1,5 @@
+delete hr.zemirs.fenc.relation
+delete tako da Cartesian = Cartesian / Domain (one funkcije koje si dodava za potporu relacijama)
+
+
+delete brodic ??

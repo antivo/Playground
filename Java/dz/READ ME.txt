@@ -1,0 +1,7 @@
+Razred koji jedini ima main funkciju je "Program". On zahtijeva 4 argumenta kroz komandnu liniju.
+
+Za pokretanje kroz komandnu liniju potrebno je pozicionirati se u folder "dz1" i u komandnu liniju upisati sljedeæe:
+java -cp .\bin hr.fer.optjava.dz1.application.Program [argumenti]
+
+javadoc generiran naredbom:
+javadoc -use -version -author -private -charset UTF-8 -d .\doc -sourcepath .\src -subpackages hr
