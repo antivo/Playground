@@ -1,4 +1,0 @@
-java -jar fuzzy.jar
-1
-20
-10
