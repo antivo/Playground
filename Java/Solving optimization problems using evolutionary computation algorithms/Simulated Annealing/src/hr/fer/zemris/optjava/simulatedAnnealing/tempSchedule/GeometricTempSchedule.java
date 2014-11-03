@@ -3,7 +3,6 @@ package hr.fer.zemris.optjava.simulatedAnnealing.tempSchedule;
 public class GeometricTempSchedule implements ITempSchedule {
 
 	private double alpha;
-	private double tInitial;
 	private double tCurrent;
 	private int innerLimit;
 	private int outerLimit;
@@ -17,7 +16,6 @@ public class GeometricTempSchedule implements ITempSchedule {
 	public GeometricTempSchedule(double alpha, double tInitial, int innerLimit,
 			int outerLimit) {
 		this.alpha = alpha;
-		this.tInitial = tInitial;
 		this.innerLimit = innerLimit;
 		this.outerLimit = outerLimit;
 		

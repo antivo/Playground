@@ -1,10 +1,10 @@
 package hr.fer.zemris.optjava.threesat.algorithm;
 
-import java.util.Random;
-
 import hr.fer.zemris.optjava.threesat.BitVector;
 import hr.fer.zemris.optjava.threesat.BitVectorNGenerator;
 import hr.fer.zemris.optjava.threesat.SATFormula;
+
+import java.util.Random;
 
 public class IterativeHillClimbing implements Algorithm {
 

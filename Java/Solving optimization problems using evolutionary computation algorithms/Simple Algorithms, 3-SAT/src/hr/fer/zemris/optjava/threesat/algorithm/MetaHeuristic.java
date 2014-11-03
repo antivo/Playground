@@ -1,15 +1,15 @@
 package hr.fer.zemris.optjava.threesat.algorithm;
 
+import hr.fer.zemris.optjava.threesat.BitVector;
+import hr.fer.zemris.optjava.threesat.BitVectorNGenerator;
+import hr.fer.zemris.optjava.threesat.SATFormula;
+import hr.fer.zemris.optjava.threesat.SATFormulaStats;
+
 import java.util.Arrays;
 import java.util.Comparator;
 import java.util.Map;
 import java.util.Random;
 import java.util.TreeMap;
-
-import hr.fer.zemris.optjava.threesat.BitVector;
-import hr.fer.zemris.optjava.threesat.BitVectorNGenerator;
-import hr.fer.zemris.optjava.threesat.SATFormula;
-import hr.fer.zemris.optjava.threesat.SATFormulaStats;
 
 public class MetaHeuristic implements Algorithm {
 

@@ -6,8 +6,6 @@ import hr.fer.zemris.optjava.simulatedAnnealing.solution.SingleObjectiveSolution
 
 
 public class GreedyAlgorithm<T extends SingleObjectiveSolution> implements IOptAlgorithm<T> {
-
-	private final double epsilon = 1e-12;
 	
 	private IDecoder<T> decoder;
 	private INeighborhood<T> neighborhood;
