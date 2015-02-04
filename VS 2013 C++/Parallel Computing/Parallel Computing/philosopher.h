@@ -1,8 +1,6 @@
 #ifndef PHILOSOPHER
 #define PHILOSOPHER
 
-#include "philosopher.h"
-
 #include <functional>
 #include <memory>
 #include <utility>

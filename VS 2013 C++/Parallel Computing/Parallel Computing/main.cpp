@@ -1,9 +1,10 @@
-#include "philosopher.h"
+
+#include <mpi.h>
 
 #include <iostream>
-
 #include <functional>
-#include <mpi.h>
+
+#include "philosopher.h"
 
 int main(int argc, char** argv) {
 	MPI_Init(&argc, &argv);

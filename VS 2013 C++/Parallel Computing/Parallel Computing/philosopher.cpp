@@ -1,11 +1,13 @@
 #include "philosopher.h"
-#include "spoon.h"
 
 #include <mpi.h>
 
 #include <ostream>
 #include <thread>
 #include <chrono>
+
+#include "spoon.h"
+
 
 Philosopher::Philosopher(const int myId, const int sizeOfGroup) :
 myId(myId),
