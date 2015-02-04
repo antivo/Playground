@@ -30,7 +30,7 @@ public class SimulatedAnnealing<T extends SingleObjectiveSolution> implements IO
 	
 	private void evaluateSolution(T solution) {
 		double[] point = decoder.decode(solution);
-		solution.value = function.valeAt(point);
+		solution.value = function.valueAt(point);
 		solution.fitness = solution.value;
 		if(minimize) {
 			solution.fitness = -solution.fitness;

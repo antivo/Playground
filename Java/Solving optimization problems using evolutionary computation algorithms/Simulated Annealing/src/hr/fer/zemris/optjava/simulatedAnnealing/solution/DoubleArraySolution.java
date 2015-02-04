@@ -35,4 +35,10 @@ public class DoubleArraySolution extends SingleObjectiveSolution {
 		sb.append(format(values[values.length - 1])).append("]");
 		return sb.toString();
 	}
+
+	@Override
+	public DoubleArraySolution newLikeThis() {
+		DoubleArraySolution solution = new DoubleArraySolution(values.length);
+		return solution;
+	}
 }

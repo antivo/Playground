@@ -26,7 +26,7 @@ public class GreedyAlgorithm<T extends SingleObjectiveSolution> implements IOptA
 	
 	private void evaluateSolution(T solution) {
 		double[] point = decoder.decode(solution);
-		solution.value = function.valeAt(point);
+		solution.value = function.valueAt(point);
 		solution.fitness = solution.value;
 		if(minimize) {
 			solution.fitness = -solution.fitness;

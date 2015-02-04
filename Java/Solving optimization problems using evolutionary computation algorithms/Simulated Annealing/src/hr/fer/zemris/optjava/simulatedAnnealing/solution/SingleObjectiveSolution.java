@@ -14,6 +14,7 @@ public abstract class SingleObjectiveSolution implements Comparable<SingleObject
 	
 	public abstract SingleObjectiveSolution duplicate();
 	
+	public abstract SingleObjectiveSolution newLikeThis();
 	
 	protected static String format(double value) {
 		return String.format("%.5f", value);

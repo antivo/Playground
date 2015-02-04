@@ -4,7 +4,7 @@ import java.util.Random;
 
 public class BitVectorSolution extends SingleObjectiveSolution {
 	public boolean[] bits;
-
+	
 	public BitVectorSolution(int size) {
 		bits = new boolean[size];
 	}
@@ -35,5 +35,11 @@ public class BitVectorSolution extends SingleObjectiveSolution {
 		}
 		sb.append("]");
 		return sb.toString();
+	}
+
+	@Override
+	public BitVectorSolution newLikeThis() {
+		BitVectorSolution solution = new BitVectorSolution(bits.length);
+		return solution;
 	}
 }

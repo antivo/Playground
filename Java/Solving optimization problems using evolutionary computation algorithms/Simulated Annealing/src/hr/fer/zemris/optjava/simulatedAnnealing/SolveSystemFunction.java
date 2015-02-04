@@ -42,7 +42,7 @@ public class SolveSystemFunction {
 		
 		Ifunction problem = new Ifunction() {
 			@Override
-			public double valeAt(double[] point) {
+			public double valueAt(double[] point) {
 				Matrix p = new Matrix(point, dim);
 				return linearSystem.f(p);
 			}
