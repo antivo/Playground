@@ -1,4 +1,4 @@
-package hr.antivo.extractwebpagedata;
+package hr.antivo.extractwebpagedata.model;
 
 import org.codehaus.jackson.annotate.JsonIgnore;
 
@@ -6,10 +6,10 @@ import org.codehaus.jackson.annotate.JsonIgnore;
  * Created by antivo on 3/12/15.
  */
 public class WebPageData {
-    String mainArticleTitle;
-    String mainArticleContent;
-    String author;
-    String publishingDateOfTheArticle;
+    private String mainArticleTitle;
+    private String mainArticleContent;
+    private String author;
+    private String publishingDateOfTheArticle;
 
     public String getAuthor() {
         return author;
@@ -52,5 +52,37 @@ public class WebPageData {
                 ", mainArticleContent='" + mainArticleContent + '\'' +
                 ", publishingDateOfTheArticle=" + publishingDateOfTheArticle +
                 '}';
+    }
+
+    public static class WebPageDataBuilder {
+        private WebPageData webPageData;
+
+        public WebPageDataBuilder() {
+            webPageData = new WebPageData();
+        }
+
+        public WebPageDataBuilder withAuthor(String author) {
+            this.webPageData.setAuthor(author);
+            return this;
+        }
+
+        public WebPageDataBuilder withMainArticleContent(String mainArticleContent) {
+            this.webPageData.setMainArticleContent(mainArticleContent);
+            return this;
+        }
+
+        public WebPageDataBuilder withMainArticleTitle(String mainArticleTitle) {
+            this.webPageData.setMainArticleTitle(mainArticleTitle);
+            return this;
+        }
+
+        public WebPageDataBuilder withPublishingDateOfTheArticle(String publishingDateOfTheArticle) {
+            this.webPageData.setPublishingDateOfTheArticle(publishingDateOfTheArticle);
+            return this;
+        }
+
+        public WebPageData build() {
+            return webPageData;
+        }
     }
 }

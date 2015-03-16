@@ -1,4 +1,4 @@
-package hr.antivo.extractwebpagedata;
+package hr.antivo.extractwebpagedata.extractor;
 
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;

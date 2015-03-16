@@ -1,4 +1,4 @@
-package hr.antivo.extractwebpagedata;
+package hr.antivo.extractwebpagedata.extractor;
 
 import de.l3s.boilerpipe.BoilerpipeProcessingException;
 import de.l3s.boilerpipe.extractors.ArticleExtractor;
@@ -14,13 +14,13 @@ public class ContentExtractor {
 
     static private final int YOUTUBE_MIN_WORDS_TRESHOLD = 20;
 
-    static public String extract(String url, String title) throws MalformedURLException, BoilerpipeProcessingException {
+    static public String extract(String url) throws MalformedURLException, BoilerpipeProcessingException {
         URL target = new URL(url);
 
-        if(url.contains("youtube") || title.toUpperCase().contains("youtube".toUpperCase())) {
+        if(url.contains("youtube")) {
             KeepEverythingWithMinKWordsExtractor extractor = new KeepEverythingWithMinKWordsExtractor(YOUTUBE_MIN_WORDS_TRESHOLD);
             String extracted = extractor.getText(target);
-            if(extracted.length() != 0) {
+            if(0 != extracted.length()) {
                 return extracted;
             }
         }
