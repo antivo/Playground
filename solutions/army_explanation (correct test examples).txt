@@ -1,0 +1,36 @@
+INPUT
+4
+1 4 3 2
+OUTPUT
+2
+
+Init. pos: 1 2 3 4
+First read: 1 4 3 2
+Second read: 1 2 3 4
+
+
+
+
+INPUT 
+4
+1 2 3 4
+OUTPUT
+1
+
+Init. pos: 1 2 3 4
+First read: 1 2 3 4
+
+
+
+
+INPUT 
+3
+2 3 1
+
+OUTPUT
+3
+
+Init. pos: 1 2 3
+First read: 2 3 1
+Second read: 3 1 2
+Third read: 1 2 3
