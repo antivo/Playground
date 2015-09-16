@@ -1,0 +1,23 @@
+mvn spring-boot:run
+
+RESULTS
+=======
+curl file contains command to test POST method in the API
+on execution returns 1
+
+web browser used to test GET method in the API
+http://localhost:8080/frequency/1/count?number_of_results=5
+[{"word":"the","count":42},{"word":"i","count":20},{"word":"a","count":20},{"word":"that","count":18},{"word":"to","count":15}]
+
+TODO:
+=====
+- junit
+
+ALTERNATIVE IDEAS:
+==================
+** SelectUtil currently O(nlogn), can be O(n). Partial sort/quickselect. Either faster execution with partial sort
+or since already fully sorted with O(nlogn) calculate it immediately on frequency creation, store it and retrieve
+on query 
+- don't replace ' in the sentence if it is inside words => difference of (don't) and (dont)
+- exctracting of comments except by parsing JSON can be done by matching String for '"body": "(...)"'. Probably not better approach and has more than few corner cases.
+
